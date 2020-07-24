@@ -1,0 +1,99 @@
+<test-cases>
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testAddSkill</name>
+		<weight>2</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testViewAll</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testDeleteSkill</name>
+		<weight>2</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testUpdateSkill</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testAddSkillException</name>
+		<weight>2</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testDeleteSkillException</name>
+		<weight>2</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testSkillTrackerSuccess</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>false</expected-ouput>
+		<name>testSkillNameLength</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>false</expected-ouput>
+		<name>testRemarkNameLength</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>false</expected-ouput>
+		<name>testSkillName</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+	<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>false</expected-ouput>
+		<name>testSkillType</name>
+		<weight>1</weight>
+		<mandatory>true</mandatory>
+		<desc>na</desc>
+	</cases>
+	
+</test-cases>
