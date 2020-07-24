@@ -1,0 +1,5 @@
+
+testSkillNameLength=false
+testRemarkNameLength=false
+testSkillName=true
+testSkillType=false

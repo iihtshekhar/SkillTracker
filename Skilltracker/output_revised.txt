@@ -1,0 +1,4 @@
+testAddSkill=true
+testViewAll=true
+testDeleteSkill=false
+testUpdateSkill=true
